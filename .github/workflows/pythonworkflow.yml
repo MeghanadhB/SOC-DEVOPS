@@ -22,4 +22,4 @@ jobs:
 
     - name: Run tests
       run: |
-          python -m unittest.py
+          python -m unittest discover
